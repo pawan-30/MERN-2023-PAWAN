@@ -1,0 +1,12 @@
+function x(...args){
+return 1;
+}
+function x(...agrs){
+console.log(args);
+}
+x(10,20,30,40,50);
+
+function x(a,b,c,d,...agrs){
+console.log(args);
+}
+x(10,20,30,40,50,60,70);
