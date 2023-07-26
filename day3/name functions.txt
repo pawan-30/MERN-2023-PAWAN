@@ -1,0 +1,14 @@
+function area_and_perimeter() {
+   
+    var area=function area(x,y) {
+        return x*y;
+    }
+    var perimeter=function perimeter(x,y) {
+        return 2*(x+y);
+    }
+    var cal=function result(x,y) {
+        
+        return [area,perimeter];
+    }
+    return {cal};
+}

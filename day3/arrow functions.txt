@@ -1,0 +1,10 @@
+var area_perimeter = () => {
+    var length = parseFloat(prompt("Enter the length: "));
+    var width = parseFloat(prompt("Enter the width: "));
+
+    var area = length * width;
+    var perimeter = 2 * (length + width);
+
+    return [area, perimeter];
+};
+	
