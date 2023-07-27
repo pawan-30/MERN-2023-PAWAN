@@ -1,0 +1,9 @@
+var salary = [12000, 30000, 15000, 9000, 7000, 10000];
+const i =0;
+const sum = salary.reduce((accumulator, currentSalary) => { if (currentSalary > 10000) {
+    return accumulator + currentSalary;
+} else {
+    return accumulator;
+}
+                                                          },i);
+console.log('Sum of salaries greater than 10000 is', sum);

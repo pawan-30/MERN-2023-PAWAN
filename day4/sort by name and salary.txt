@@ -1,0 +1,14 @@
+var Emp=[{name:"Kshitiz", salary:10000},
+         {name:"Sushnat", salary:32000},
+         {name:"Pawan", salary:12000},
+         {name:"Amit", salary:9000}]
+
+// by name 
+let Emp2 = Emp.sort((a,b)=>a.name.localeCompare(b.name)); 
+
+console.log('By Names:', Emp2);
+
+// by salary 
+let Emp3 = Emp.sort((a,b)=>a.name.localeCompare(b.name)); 
+
+console.log('By Salary:', Emp3);

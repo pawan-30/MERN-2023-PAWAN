@@ -1,0 +1,10 @@
+var Emp=[{name:"Kshitiz", salary:10000},
+         {name:"Sushnat", salary:32000},
+         {name:"Pawan", salary:12000},
+         {name:"Amit", salary:9000}]
+
+var nSal = Emp.map(function(employee) {
+  return {salary: employee.salary + (employee.salary * 0.10) };
+});
+
+nSal

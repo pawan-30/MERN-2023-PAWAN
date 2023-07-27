@@ -1,0 +1,10 @@
+var count=0;
+count=salary.reduce((accumulator,currentSalary)=>{
+    if(currentSalary>10000){
+       return count=count+1;
+    }
+    else{
+        return accumulator;
+    }
+},i);
+console.log('Count of salaries greater than 10000 is :', count);

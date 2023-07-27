@@ -1,0 +1,2 @@
+var maximumSalary = salary.reduce((accumulator, initialValue) => { return Math.max(accumulator, initialValue);
+                                                                 });
